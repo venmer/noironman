@@ -21,7 +21,7 @@ public class MyResourceTest  extends JerseyTest{
     }
     @Test
     public void getItTest(){
-        final String responceMsg=target().path("myresource").request().get(String.class);
+        final String responceMsg=target().path("/").request().get(String.class);
         assertEquals("I am iron man!",responceMsg);
     }
 
