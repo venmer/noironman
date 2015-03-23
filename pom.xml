@@ -56,7 +56,7 @@
     </dependencies>
 
     <build>
-        <finalName>simple-heroku-webapp</finalName>
+        <finalName>noironman</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
