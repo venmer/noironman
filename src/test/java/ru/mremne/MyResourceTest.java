@@ -3,6 +3,7 @@ package ru.mremne;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Test;
+import ru.mremne.resources.MyResource;
 
 import javax.ws.rs.core.Application;
 
